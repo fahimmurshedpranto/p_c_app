@@ -29,9 +29,13 @@ const PostComment = ({ data }) => {
                     
                     {openId === post.id && comments[post.id] && (
                         <div className="mt-4 p-4 bg-gray-100 rounded">
-                            <p className='text-green-500'>Name: {comments[post.id]?.name}</p>
-                            <p className='text-green-500'>Email: {comments[post.id]?.email}</p>
-                            <p className='text-green-500'>Body: {comments[post.id]?.body}</p>
+                            {comments[post.id].map((comment, index) => (
+                                <div key={comment.id} className={index > 0 ? 'mt-4 pt-4 border-t border-gray-300' : ''}>
+                                    <p className='text-green-500'>Name: {comment.name}</p>
+                                    <p className='text-green-500'>Email: {comment.email}</p>
+                                    <p className='text-green-500'>Body: {comment.body}</p>
+                                </div>
+                            ))}
                         </div>
                     )}
                 </div>

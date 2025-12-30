@@ -9,10 +9,11 @@ const Button = ({ postID, CommentFetched }) => {
             const allComments = await comments.json();
             console.log({ allComments });
     
-            const commentData = allComments.find((c) => c.id == postID);
+            // Filter comments by postId instead of id
+            const commentData = allComments.filter((c) => c.postId == postID);
             console.log({ commentData });
             
-            if (commentData) {
+            if (commentData.length > 0) {
                 CommentFetched(postID, commentData);
             }
         } 
