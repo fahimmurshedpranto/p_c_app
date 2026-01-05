@@ -1,0 +1,82 @@
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "5 Sustainable Living Changes You Can Make Today",
+    "body": "Discover simple yet impactful ways to reduce your carbon footprint and live a more sustainable lifestyle, starting with changes you can implement right from your own home.",
+    "created_at": "2024-01-22 15:30:00",
+    "commentIds": [1]
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "Navigating the World of Freelancing: Tips and Tricks",
+    "body": "Dive into the dynamic world of freelancing with our comprehensive guide, featuring practical advice on securing gigs, managing your time, and maximizing your earning potential.",
+    "created_at": "2020-08-22 15:30:00",
+    "commentIds": [2]
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "The Ultimate Guide to Homemade Sourdough Bread",
+    "body": "Join us on a culinary journey to perfecting homemade sourdough bread, complete with step-by-step instructions and tips to get that artisanal crust and fluffy interior",
+    "created_at": "2022-01-22 15:30:00",
+    "commentIds": [3, 4]
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "Exploring the Hidden Gems of Toronto: A Locals Guide",
+    "body": "Uncover the lesser-known attractions and secret spots of Toronto, as we take you through a locals guide to experiencing the city beyond its tourist trails.",
+    "created_at": "2023-03-20 15:20:00",
+    "commentIds": [5, 6]
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "Technology and Mental Health: Finding the Balance",
+    "body": "In this digital age, learn how to strike the perfect balance between staying connected and maintaining your mental health, with insights into mindful tech usage.",
+    "created_at": "2023-05-20 15:20:00",
+    "commentIds": []
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "Traveling on a Budget: How to See the World Without Breaking the Bank",
+    "body": "Embark on adventures around the globe without spending a fortune, thanks to our savvy tips for budget travel, from cheap flights to affordable accommodations.",
+    "created_at": "2023-09-20 15:20:00",
+    "commentIds": []
+  },
+  {
+    "userId": 2,
+    "id": 7,
+    "title": "The Evolution of Fashion: From Vintage Classics to Modern Trends",
+    "body": "Explore the fascinating journey of fashion through the ages, from timeless vintage pieces to the cutting-edge trends that shape todays style landscape.",
+    "created_at": "2023-09-20 15:20:00",
+    "commentIds": []
+  },
+  {
+    "userId": 3,
+    "id": 8,
+    "title": "Gardening for Beginners: How to Start Your Green Thumb Journey",
+    "body": "Kickstart your gardening adventure with our beginner-friendly guide, offering essential tips on everything from choosing the right plants to soil care.",
+    "created_at": "2023-10-20 15:20:00",
+    "commentIds": []
+  },
+  {
+    "userId": 3,
+    "id": 9,
+    "title": "The Power of Mindfulness in Your Daily Routine",
+    "body": "Discover how incorporating mindfulness into your daily routine can transform your life, enhancing your focus, reducing stress, and promoting overall well-being.",
+    "created_at": "2020-09-20 15:50:00",
+    "commentIds": []
+  },
+  {
+    "userId": 4,
+    "id": 10,
+    "title": "Creative Writing Prompts to Unleash Your Inner Author",
+    "body": "Unlock your creative potential with a collection of writing prompts designed to inspire your next masterpiece, whether youre penning a short story, poem, or novel.",
+    "created_at": "2019-09-20 15:20:00",
+    "commentIds": []
+  }
+]

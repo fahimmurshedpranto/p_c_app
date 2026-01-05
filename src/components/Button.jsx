@@ -1,21 +1,18 @@
 import React from 'react';
 
-const Button = ({ postID, CommentFetched }) => {
+const Button = ({ postId, commentIds, CommentFetched }) => {
     const handleClick = async() => {
-        console.log({ postID });
-        
         try {
-            const comments = await fetch("https://coderbyte.com/api/challenges/json/all-comments");
+            const comments = await fetch("/comments.json");
             const allComments = await comments.json();
-            console.log({ allComments });
     
-            // Filter comments by postId instead of id
-            const commentData = allComments.filter((c) => c.postId == postID);
-            console.log({ commentData });
-            
-            if (commentData.length > 0) {
-                CommentFetched(postID, commentData);
-            }
+             
+            const commentData = allComments.filter((c) => commentIds.includes(c.id));
+
+             CommentFetched(postId, commentData);
+            // if (commentData.length > 0) {
+            //     CommentFetched(postId, commentData);
+            // }
         } 
         catch (error) {
             console.error("Error fetching comments:", error);

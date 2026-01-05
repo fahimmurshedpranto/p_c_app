@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "postId": 1,
+    "name": "Comment 1",
+    "email": "marta@marta.com",
+    "body": "This was such an insightful read! Ive always wanted to learn more about this topic, and your post broke it down perfectly. Thanks for sharing your knowledge!"
+  },
+  {
+    "id": 2,
+    "postId": 2,
+    "name": "Comment 2",
+    "email": "daniel@daniel.com",
+    "body": "Incredible tips! I tried out your suggestions last weekend, and I was amazed by the results. Keep the great advice coming; Im a fan"
+  },
+  {
+    "id": 3,
+    "postId": 3,
+    "name": "Comment 3",
+    "email": "nikita@nikita.com",
+    "body": "Im so glad I stumbled upon your blog. Your writing style is engaging, and the topics you cover are exactly what Ive been looking for. Subscribed!"
+  },
+  {
+    "id": 4,
+    "postId": 3,
+    "name": "Comment 4",
+    "email": "lew@lew.com",
+    "body": "As someone whos new to this subject, I found your post to be very accessible and informative. Could you recommend any further reading or resources?"
+  },
+  {
+    "id": 5,
+    "postId": 4,
+    "name": "Comment 5",
+    "email": "karl@karl.com",
+    "body": "Your perspective on this issue is refreshing. Its rare to find content that dives deep into the nuances without taking sides. Would love to see more posts like this."
+  },
+  {
+    "id": 6,
+    "postId": 4,
+    "name": "Comment 6",
+    "email": "karl@karl.biz",
+    "body": "Wow, I never considered this viewpoint before. Your post has opened my eyes to new ideas and possibilities. Thank you for broadening my horizons!"
+  }
+]
